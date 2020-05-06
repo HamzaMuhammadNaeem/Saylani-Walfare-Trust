@@ -2,9 +2,9 @@ body {
     background-color: ghostwhite;
 }
 /* Header */
-header {
+.header {
     background-color: #316dc3;
-    height: 50px;
+    height: 100%;
     display: flex;
 }
 img {
@@ -16,7 +16,9 @@ img {
         opacity: 5;
         background-color: lightblue;
     }
+
 .main {
+    height: 100%;
     display: flex;
 }
 .images {
@@ -64,14 +66,15 @@ img {
     margin: 14px 50px 0 120px;
     color: white;
     flex: 5;
+    display: flex;
 }
 
 /* Top buttons */
 .buttons {
     margin: 15px 0 0 50px;
     flex: 2;
-    padding: 0 20px 
-    
+    padding: 0 20px; 
+    display: flex;
 }
 .button1 {
     border-style: solid;
@@ -101,9 +104,7 @@ img {
 }
 
 /* Logo */
-.main {
-    height: 60px;
-}
+
 .logo {
     margin: 0 0 0 70px;
 }
@@ -310,6 +311,15 @@ h3 {
 }
 
 /* What we are doing  */
+.doing {
+    margin: 40px;
+    position: absolute;
+    left: 48%;
+    transform: translate(-50%);
+    font-size: 30pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
 .flex-container {
     font-family: 'Times New Roman', Times, serif;
     display: flex;
